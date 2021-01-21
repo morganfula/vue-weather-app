@@ -19,7 +19,7 @@ export default {
 };
 </script>
 
-<style>
+<style lang="scss">
 * {
   margin: 0;
   padding: 0;
@@ -46,5 +46,33 @@ main {
     rgba(0, 0, 0, 0.25),
     rgba(0, 0, 0, 0.75)
   );
+}
+
+.search-box {
+  width: 100%;
+  margin-bottom: 30px;
+
+  .search-bar {
+    display: block;
+    width: 100%;
+    padding: 15px;
+
+    color: #313131;
+    font-size: 20px;
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.25);
+    appearance: none;
+    border: none;
+    outline: none;
+    background: none;
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 0px 16px 0px 16px;
+    transition: 0.4s;
+
+    &:focus {
+      border-radius: 16px 0px 16px 0px;
+      box-shadow: 0px 0px 16px rgba(0, 0, 0, 0.25);
+      background-color: rgba(255, 255, 255, 0.75);
+    }
+  }
 }
 </style>
