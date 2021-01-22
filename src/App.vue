@@ -43,7 +43,7 @@ export default {
     fetchWeather(e) {
       if (e.key === 'Enter') {
         fetch(
-          `${this.url_base}weather?=q${this.query}&units=metricAPPID=${this.api_key}`
+          `${this.url_base}weather?q=${this.query}&units=metric&APPID=${this.api_key}`
         )
           //https://api.openweathermap.org/data/2.5/weather?q=London&appid=f6cb746bc7f6e931ff93650f2c8c7523
           .then((res) => {
@@ -144,7 +144,7 @@ main {
     padding: 10px 25px;
     color: #fff;
     font-size: 102px;
-    font-weight: 900;
+    font-weight: 500;
 
     text-shadow: 3px 6px 12px rgba(0, 0, 0, 0.25);
     background-color: rgba(255, 255, 255, 0.25);
