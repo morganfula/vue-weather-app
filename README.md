@@ -1,24 +1,6 @@
 # vue-weather-app
 
-## Project setup
-```
-npm install
-```
+## Project
+A simple Weather app using Vue.js and SCSS
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
-
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+<img align="center" width="250" src="https://media.giphy.com/media/ZNH7OxNAnqIS8bUXl3/giphy.gif">
