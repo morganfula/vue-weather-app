@@ -3,4 +3,4 @@
 ## Project
 A simple Weather app using Vue.js and SCSS
 
-<img align="center" width="450" src="https://media.giphy.com/media/ZNH7OxNAnqIS8bUXl3/giphy.gif">
+<img align="center" width="750" src="https://media.giphy.com/media/iOIz7YRkOm3Cirsher/giphy.gif">
